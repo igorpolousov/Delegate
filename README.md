@@ -31,24 +31,24 @@ App Delegate Data Transfer
 5. Сделали два файла Cocoa touch class наследниками класса UIViewController. Первый назвали FirstViewController и  второй SecondViewController. 
 6. Делаем outlets для каждого view controller
 7. В файл SecondViewController  добавляем: протокол
-￼<img width="470" alt=" STEP 1" src="https://user-images.githubusercontent.com/78177975/157416713-1cb1def7-7be9-4a43-894f-017a61bb8318.png">
+<img width="470" alt=" STEP 1" src="https://user-images.githubusercontent.com/78177975/157416713-1cb1def7-7be9-4a43-894f-017a61bb8318.png">
 
 8. Добавляем переменную Delegate 
-￼ <img width="382" alt="var delegate MyDataSendingDelegateProtocol" src="https://user-images.githubusercontent.com/78177975/157416783-1f6972fa-f256-4dbc-9e8d-d54e23a31f72.png">
+<img width="382" alt="var delegate MyDataSendingDelegateProtocol" src="https://user-images.githubusercontent.com/78177975/157416783-1f6972fa-f256-4dbc-9e8d-d54e23a31f72.png">
 
 9.  Добавляем передачу данных в кнопку SendData:
-￼ <img width="561" alt="self delegate sendDataToFirstViewController(dataToBeSend  Oops)" src="https://user-images.githubusercontent.com/78177975/157416848-a395cace-8789-480c-a6f5-1a2925b4a452.png">
+<img width="561" alt="self delegate sendDataToFirstViewController(dataToBeSend  Oops)" src="https://user-images.githubusercontent.com/78177975/157416848-a395cace-8789-480c-a6f5-1a2925b4a452.png">
 
 10. В FirstViewController добавляем соответствие протоколу:
-￼ <img width="615" alt="Screenshot 2022-03-09 at 12 37 13" src="https://user-images.githubusercontent.com/78177975/157416951-702d2e7f-4596-40bd-aae9-8214f75629e1.png">
+<img width="615" alt="Screenshot 2022-03-09 at 12 37 13" src="https://user-images.githubusercontent.com/78177975/157416951-702d2e7f-4596-40bd-aae9-8214f75629e1.png">
 
 11.  Для соответствия протоколу в FirstViewController добавляем метод:
-￼ <img width="446" alt="func sendDataToFirstViewController(_ myData String)" src="https://user-images.githubusercontent.com/78177975/157417002-2dc7f8c6-1b67-4c04-9812-4bd44b6a5848.png">
+<img width="446" alt="func sendDataToFirstViewController(_ myData String)" src="https://user-images.githubusercontent.com/78177975/157417002-2dc7f8c6-1b67-4c04-9812-4bd44b6a5848.png">
 
 12.  В переходе на второй view controller указываем: 
-￼ <img width="716" alt="Screenshot 2022-03-09 at 12 45 13" src="https://user-images.githubusercontent.com/78177975/157417027-0283cf35-2cb5-467c-8886-3701d00bb706.png">
+<img width="716" alt="Screenshot 2022-03-09 at 12 45 13" src="https://user-images.githubusercontent.com/78177975/157417027-0283cf35-2cb5-467c-8886-3701d00bb706.png">
 
-￼ 
+
 ![First view controller](https://user-images.githubusercontent.com/78177975/157417935-061e4e51-7cb1-43cf-aeff-fc857f48230a.png) 
 ![First view controller](https://user-images.githubusercontent.com/78177975/157418019-17903c8b-240d-4171-a026-28db03a028c7.png)
 ![First view controller text](https://user-images.githubusercontent.com/78177975/157418119-22ad93d8-6ce8-4500-bca6-03bdfb0b8987.png)
