@@ -50,7 +50,7 @@ App Delegate Data Transfer
 
 
 ![First view controller](https://user-images.githubusercontent.com/78177975/157417935-061e4e51-7cb1-43cf-aeff-fc857f48230a.png) 
-![First view controller](https://user-images.githubusercontent.com/78177975/157418019-17903c8b-240d-4171-a026-28db03a028c7.png)
+![Second view controller ](https://user-images.githubusercontent.com/78177975/157655065-2bcbdc6f-0052-4198-bfad-810c6b379890.png)
 ![First view controller text](https://user-images.githubusercontent.com/78177975/157418119-22ad93d8-6ce8-4500-bca6-03bdfb0b8987.png)
 
 
